@@ -12,6 +12,7 @@ namespace SnakeOOP
             p1.Draw();
 
             Point p2 = new Point(4, 5, '#');
+
             p2.Draw();
 
             List<int> numList = new List<int>();
@@ -27,6 +28,12 @@ namespace SnakeOOP
             {
                 Console.WriteLine(i);
             }
+
+
+            p2.Draw();      
+
+
+            
 
             Console.ReadLine();
         }
